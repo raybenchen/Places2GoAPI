@@ -1,7 +1,7 @@
 # Places2Go API
 
 This API is destined to match a web/app user to locations nearby. It uses IBM Watson Personality Insights API to form a personality profile for a web/app user based on his tweets.
-It then uses same Watson API to form personality profile for each location based on the reviews posted on Yelp (Thank to Yelp for providing 1M reviews data)
+It then uses same Watson API to form personality profile for each location based on the reviews posted on Yelp (Thank to Yelp for providing 1M reviews data) 
 
 Then it finds the closest match by calculating Eucledian distance between the personality profile of the web/app user and location based on "Needs" and "Values"criteria:
 
